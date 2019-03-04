@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+}
+h1{
+  text-align: center;
+  position: fixed; /* or absolute */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: "51cm";
+  top: 30%;
+  left: 40%;
+  background-color: rgb(112, 162, 190);
+}
+h5{
+  text-align: center;
+  position: fixed; /* or absolute */
+  top: 40%;
+  left: 40%;
+  background-color: rgb(112, 162, 190);
+}
+.btn1{
+  height: "20cm";
+  width: "30";
+  margin-left: auto;
+  background-color: blue;
+  border: "30cm";
+}

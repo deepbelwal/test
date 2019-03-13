@@ -1,0 +1,174 @@
+#root {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  border-width: 1px;
+  border-color:blargb(58, 56, 56);
+  border-style: solid;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 100px;
+  background-color:rgb(202, 199, 199); /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowq {
+  border-width: 1px;
+  border-color:rgb(202, 199, 199);
+  border-style: solid;
+  float: left;
+  width: 10%;
+  padding: 10px;
+  height: 100px;
+  background-color:rgb(202, 199, 199);
+  gap: 10px;
+}
+.row1 {
+  border-width: 1px;
+  border-color:rgb(202, 199, 199);
+  border-style: solid;
+  float: left;
+  width: 10%;
+  padding: 10px;
+  height: 100px;
+  background-color:rgb(202, 199, 199);
+  gap: 10px;
+}
+.row2 {
+  border-width: 1px;
+  border-color:rgb(202, 199, 199);
+  border-style: solid;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100px;
+  background-color:rgb(202, 199, 199);
+  gap: 10px;
+}
+.row3 {
+  border-width: 1px;
+  border-color:rgb(202, 199, 199);
+  border-style: solid;
+  float: left;
+  width: 10%;
+  padding: 10px;
+  height: 100px;
+  background-color:rgb(202, 199, 199);
+  gap: 10px;
+}
+
+/*
+.row .but{
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.row .im{
+  display: inline-table;
+  height: 20px;
+  width: 20px;
+}*/
+
+.column1 {
+  border-width: 1px;
+  border-color:blargb(58, 56, 56)ck;
+  border-style: solid;
+  gap: 10px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 150px;
+  background-color:whitesmoke;
+}
+
+/*.but {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}*/
+
+.but {
+  font-size: 20px;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+.butt {
+  font-size: 20px;
+  text-align: center;
+  height: 45px;
+  width: 45px;
+  background-color:lightblue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+/* Clear floats after the columns */
+.row4 {
+  border-width: 1px;
+  border-color:rgb(58, 56, 56);
+  border-style: solid;
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 150px;
+  background-color:whitesmoke;
+}
+
+.column2 {
+  border-width: 1px;
+  border-color:rgb(58, 56, 56);
+  border-style: solid;
+  gap: 10px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 150px;
+  background-color:whitesmoke;
+}
+.row5 {
+  border-width: 1px;
+  border-color:rgb(58, 56, 56);
+  border-style: solid;
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 150px;
+  background-color:whitesmoke;
+}
+.column3 {
+  border-width: 1px;
+  border-color:rgb(58, 56, 56);
+  border-style: solid;
+  gap: 10px;
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 150px;
+  background-color:whitesmoke;
+}
+.row6 {
+  border-width: 1px;
+  border-color:rgb(58, 56, 56);
+  border-style: solid;
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 150px;
+  background-color:whitesmoke;
+}
+.im{
+  height: 1cm;
+  width:1cm;
+}
